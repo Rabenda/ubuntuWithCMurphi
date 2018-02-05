@@ -15,8 +15,13 @@ RUN \
   apt-get install -y build-essential && \
   apt-get install -y software-properties-common && \
   apt-get install -y byobu curl git htop man unzip vim wget && \
+  apt-get install -y flex byacc && \
   cd /root && \
   wget http://mclab.di.uniroma1.it/site/softwareopensource/cmurphi5.4.9.1.tgz && \
+  tar -xvf cmurphi5.4.9.1.tgz && \
+  cd cmurphi5.4.9.1 && \
+  cd src && \
+  make && \
   rm -rf /var/lib/apt/lists/*
 
 # Add files.
