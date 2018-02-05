@@ -16,11 +16,11 @@ This repository contains **Dockerfile** of [Ubuntu](http://www.ubuntu.com/) for 
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://hub.docker.com/r/rabenda/ubuntuwithcmurphi/) from public [Docker Hub Registry](https://hub.docker.com/): `docker pull rabenda/ubuntuwithcmurphi`
+2. Download [automated build](https://hub.docker.com/r/rabenda/ubuntuwithcmurphi/) from public [Docker Hub Registry](https://hub.docker.com/): `docker pull rabenda/ubuntuwithcmurphi5.4.9.1`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="rabenda/ubuntuwithcmurphi" github.com/rabenda/ubuntuwithcmurphi`)
+   (alternatively, you can build an image from Dockerfile: `docker build -t="rabenda/ubuntuwithcmurphi5.4.9.1" github.com/rabenda/ubuntuwithcmurphi5.4.9.1`)
 
 
 ### Usage
 
-    docker run -it --rm rabenda/ubuntuwithcmurphi
+    docker run -it --rm rabenda/ubuntuwithcmurphi5.4.9.1
