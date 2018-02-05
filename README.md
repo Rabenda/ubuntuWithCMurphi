@@ -3,8 +3,8 @@
 
 This repository contains **Dockerfile** of [Ubuntu](http://www.ubuntu.com/) for [Docker](https://www.docker.com/)'s [automated build](https://hub.docker.com/r/library/ubuntu/)
 
-## Murphi3.1-fix
-[automated build](https://github.com/Rabenda/Murphi3.1-fix)
+## CMurphi5.4.9.1
+[automated build](http://mclab.di.uniroma1.it/site/index.php/software/18-cmurphi)
 
 
 ### Base Docker Image
@@ -16,11 +16,11 @@ This repository contains **Dockerfile** of [Ubuntu](http://www.ubuntu.com/) for 
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://hub.docker.com/r/rabenda/ubuntuwithmurphi3.1/) from public [Docker Hub Registry](https://hub.docker.com/): `docker pull rabenda/ubuntuwithmurphi3.1`
+2. Download [automated build](https://hub.docker.com/r/rabenda/ubuntuwithcmurphi/) from public [Docker Hub Registry](https://hub.docker.com/): `docker pull rabenda/ubuntuwithcmurphi`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="rabenda/ubuntuwithmurphi3.1" github.com/rabenda/ubuntuwithmurphi3.1`)
+   (alternatively, you can build an image from Dockerfile: `docker build -t="rabenda/ubuntuwithcmurphi" github.com/rabenda/ubuntuwithcmurphi`)
 
 
 ### Usage
 
-    docker run -it --rm rabenda/ubuntuwithmurphi3.1
+    docker run -it --rm rabenda/ubuntuwithcmurphi
