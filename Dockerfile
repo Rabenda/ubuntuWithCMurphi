@@ -21,8 +21,7 @@ RUN \
   tar -xvf cmurphi5.4.9.1.tgz && \
   cd cmurphi5.4.9.1 && \
   cd src && \
-  make && \
-  rm -rf /var/lib/apt/lists/*
+  make
 
 # Add files.
 ADD root/.bashrc /root/.bashrc
