@@ -45,5 +45,5 @@ source $HOME/.scripts/git-completion.sh
 # Z
 source $HOME/.scripts/z.sh
 
-# Add Murphi3.1-fix/bin
-export PATH="$PATH:/root/Murphi3.1-fix/bin"
+# Add cmurphi5.4.9.1/bin
+export PATH="$PATH:/root/cmurphi5.4.9.1/src"
