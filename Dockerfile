@@ -18,10 +18,7 @@ RUN \
   apt-get install -y flex byacc && \
   cd /root && \
   wget http://mclab.di.uniroma1.it/site/softwareopensource/cmurphi5.4.9.1.tgz && \
-  tar -xvf cmurphi5.4.9.1.tgz && \
-  cd cmurphi5.4.9.1 && \
-  cd src && \
-  make
+  tar -xvf cmurphi5.4.9.1.tgz
 
 # Add files.
 ADD root/.bashrc /root/.bashrc
